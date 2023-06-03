@@ -1,0 +1,26 @@
+.Nav {
+  font-size: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Nav__item {
+  cursor: pointer;
+  width: 30%;
+  border: 5px solid #A2D8A1;
+  border-radius: 50%;
+}
+
+.Nav__item:hover {
+  cursor: pointer;
+  width: 30%;
+  border: 5px solid #c33b8f;
+  border-radius: 50%;
+}
+
+.Nav__item img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}

@@ -1,0 +1,5 @@
+.MainPageBody {
+  min-height: calc(100vh - 230px);
+  display: flex;
+  align-items: center;
+}

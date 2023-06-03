@@ -1,0 +1,35 @@
+.admin {
+  color:rgb(59, 49, 49);
+}
+
+.admin__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin__title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.admin__link {
+  padding: 15px 10px;
+  border-radius: 5px;
+  background-color: rgb(59, 49, 49);
+  font-weight: bold;
+  color: aliceblue;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.admin__body {
+  margin-top: 40px;
+}
+
+.admin__manual {
+  font-weight: 700;
+  font-style: italic;
+  color: rgb(164, 30, 30)
+}

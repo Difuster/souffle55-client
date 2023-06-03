@@ -1,0 +1,17 @@
+.input {
+  padding: 5px;
+  margin-bottom: 15px;
+  display: block;
+  width: 300px;
+  height: 25px;
+  border: 2px solid rgb(59, 49, 49);
+  border-radius: 3px;
+  font-family: "Verdana", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,41 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 130px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.Header__logo {
+  display: block;
+  width: 25%;
+  cursor: pointer;
+}
+
+.Header__links {
+  display: flex;
+  flex-direction: row;
+}
+
+.Header__whatsup::before {
+  content: url('../../assets/images/whatsup.png');
+  display: inline-block;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Header__instagram::before {
+  content: url('../../assets/images/instagram.png');
+  display: inline-block;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Header__phone::before {
+  content: url('../../assets/images/phone.png');
+  display: inline-block;
+  cursor: pointer;
+}
